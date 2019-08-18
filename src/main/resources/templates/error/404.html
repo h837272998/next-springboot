@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>404</title>
+</head>
+<body>
+
+    <h1>访问的页面不存在</h1>
+    <p th:text="'状态码：'+${status}"></p>
+    <p th:text="'错误：'+${error}"></p>
+    <p th:text="'错误信息：'+${message}"></p>
+    <p th:text="'路径：'+${path}"></p>
+    <p th:text="'时间戳：'+${timestamp}"></p>
+</body>
+</html>
